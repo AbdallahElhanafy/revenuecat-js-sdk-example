@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "RevenueCat Fullscreen Paywall Example",
   description:
-    "A Next.js reference for rendering a RevenueCat purchases-js paywall fullscreen on iOS Safari.",
+    "A Next.js reference for rendering a RevenueCat Web Billing (purchases-js) paywall fullscreen on mobile Safari.",
 };
 
 export const viewport: Viewport = {

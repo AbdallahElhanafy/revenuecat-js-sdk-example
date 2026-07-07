@@ -14,7 +14,7 @@ import { getPurchases } from "@/lib/revenuecat";
 type Status = "loading" | "ready" | "purchasing" | "purchased" | "error";
 
 /**
- * iOS Safari doesn't shrink `window.innerHeight`/`100vh` for the on-screen
+ * Mobile Safari doesn't shrink `window.innerHeight`/`100vh` for the on-screen
  * keyboard, and toggles the address bar independently of both. `visualViewport`
  * is the only signal that reflects what's *actually* visible right now, so we
  * measure it directly instead of trusting any CSS viewport unit alone.
@@ -72,7 +72,7 @@ function useHasRenderedContent(ref: RefObject<HTMLElement | null>): boolean {
   return hasContent;
 }
 
-/** Locks background scroll so iOS Safari's chrome doesn't shift under the stage while it's open. */
+/** Locks background scroll so mobile Safari's chrome doesn't shift under the stage while it's open. */
 function useBodyScrollLock() {
   useEffect(() => {
     const { body } = document;

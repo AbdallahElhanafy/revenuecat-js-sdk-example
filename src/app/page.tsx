@@ -9,7 +9,7 @@ export default function Home() {
         </h1>
         <p className="text-sm leading-6 text-zinc-600 dark:text-zinc-400">
           A reference implementation for rendering a purchases-js paywall
-          fullscreen without the usual iOS Safari inset, keyboard, and
+          fullscreen without the usual mobile Safari inset, keyboard, and
           viewport-height problems. See{" "}
           <code className="rounded bg-zinc-200 px-1 py-0.5 dark:bg-zinc-800">
             src/components/FullscreenPaywallStage.tsx
